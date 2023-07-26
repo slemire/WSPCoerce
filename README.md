@@ -38,8 +38,8 @@ Notes:
 
 ## Example demo 1 - Machine account NTLMv2 capture
 
-Target: LABWS1
-Listener: Kali box
+- Target: LABWS1
+- Listener: Kali box
 
 Search request sent to LABWS1:
 ![](demo/wsp_2.png)
@@ -49,14 +49,11 @@ NTLMv2 captured on Responder:
 
 ## Example demo 2 - Coercion to unconstrained delegation
 
-Target: LABWS1
-Listener: LABSRV1
+- Target: LABWS1
+- Listener: LABSRV1
 
 Search request sent to LABWS1:
 ![](demo/wsp_1.png)
-
-Packet capture of the request:
-![](demo/wsp_wireshark.png)
 
 Kerberos TGT on listener (LABSRV1):
 ![](demo/wsp_tgt_1.png)
