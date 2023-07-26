@@ -42,7 +42,7 @@ Notes:
 - Listener: Kali box
 
 Search request sent to LABWS1:
-![](demo/wsp_2.png)
+![](demo/wsp_2.PNG)
 
 NTLMv2 captured on Responder:
 ![](demo/wsp_labws1_ntlmv2.png)
@@ -53,7 +53,7 @@ NTLMv2 captured on Responder:
 - Listener: LABSRV1
 
 Search request sent to LABWS1:
-![](demo/wsp_1.png)
+![](demo/wsp_1.PNG)
 
 Kerberos TGT on listener (LABSRV1):
 ![](demo/wsp_tgt_1.png)
