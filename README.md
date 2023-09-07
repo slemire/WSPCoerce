@@ -33,7 +33,7 @@ WSPCoerce.exe <target> <listener>
 ```
 
 Notes:
-- Can't use an IP address for the target
+- Can't use an IP address for the target, use a short hostname only (no FQDN)
 - Make sure to use a hostname or FQDN for the listener if you want to receive Kerberos auth
 
 ## Example demo 1 - Machine account NTLMv2 capture
